@@ -1,4 +1,11 @@
-y = 10
-x = 5
-z = x + y
-print(z)
+def print_digit(symbol):
+    print(symbol)
+
+
+print_digit("****")
+print_digit("*  *")
+print_digit("*  *")
+print_digit("*  *")
+print_digit("****")
+
+
