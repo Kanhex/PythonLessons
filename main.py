@@ -1,9 +1,9 @@
-a = 2
-b = 3
-c = a
-a = b
-b = c
-print(a, b)
+a = 123
+b = a % 10
+a = a // 10
+c = a % 10
+a = a // 10
+print( a + b + c)
 
         
 
