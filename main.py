@@ -1,8 +1,7 @@
 x = 30
-y = 20
-if x > y:
-    print(x)
+y = 30
+if x != y:
+    print(x + y)
 else:
-    print(y)
-
+    print(30 * 20)
 
