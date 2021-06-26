@@ -1,13 +1,8 @@
-a = 1, 2, 3
-print(a[2], a[1], a[0])
-
-        
-
-
-
-
-
-
-
+x = 30
+y = 20
+if x > y:
+    print(x)
+else:
+    print(y)
 
 
