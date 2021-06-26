@@ -1,8 +1,8 @@
-x = 5
-y = 20
-z = 10
-if x > y and x > z:
-    print(x + y + z)
+x = 2
+y = 2
+z = 4
+c = x + y
+if c == z:
+    print(x**2 + y**2 + z**2)
 else:
-    print(y - z)
-
+    print(x - z)
