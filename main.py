@@ -1,7 +1,8 @@
-x = 30
-y = 30
-if x != y:
-    print(x + y)
+x = 5
+y = 20
+z = 10
+if x > y and x > z:
+    print(x + y + z)
 else:
-    print(30 * 20)
+    print(y - z)
 
