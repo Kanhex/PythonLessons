@@ -24,24 +24,24 @@ def b(z, x, c):
 b(4, 6, 2)
 
 
-def c(a):
-    if 4 < a <= 10:
-        print(2 * a)
+def c(ap):
+    if 4 < ap <= 10:
+        print(2 * ap)
     else:
-        print(a - 55)
+        print(ap - 55)
 
 
 c(6)
 
 
-def d(a,b , c):
-    if a < b:
-        z = a
+def d(d1, d2, d3):
+    if d1 < d2:
+        z = d1
     else:
-        z = b
-    if c < z:
-        z = c
-    x = a + b + c - z
+        z = d2
+    if d3 < z:
+        z = d3
+    x = d1 + d2 + d3 - z
     print(x)
 
 
@@ -59,11 +59,3 @@ def zxc(count):
 
 zxc(0)
 
-
-def zxc(count):
-    while count != 39:
-        print(count)
-        count = count + 2
-
-
-zxc(1)
