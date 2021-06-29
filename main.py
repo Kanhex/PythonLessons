@@ -9,6 +9,8 @@ def a(x, y):
 
 a(10, 15)
 
+print('///////////////////////')
+
 
 def b(z, x, c):
     if z > 0 and x > 0 and c > 0:
@@ -23,6 +25,8 @@ def b(z, x, c):
 
 b(4, 6, 2)
 
+print('///////////////////////')
+
 
 def c(ap):
     if 4 < ap <= 10:
@@ -32,6 +36,8 @@ def c(ap):
 
 
 c(6)
+
+print('///////////////////////')
 
 
 def d(d1, d2, d3):
@@ -46,9 +52,12 @@ def d(d1, d2, d3):
 
 
 d(3, 4, 8)
+print('///////////////////////')
 
 for Loading in range(8):
     print("Loading...")
+
+print('///////////////////////')
 
 
 def zxc(count):
@@ -59,3 +68,53 @@ def zxc(count):
 
 zxc(0)
 
+print('///////////////////////')
+l1 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+l2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+intersection = []
+for x in l1:
+    if x in l2:
+        intersection.append(x)
+print(intersection)
+
+print('///////////////////////')
+
+l3 = [1, 51, 22, 9, 5, 0]
+l3.sort()
+print(l3)
+
+print('///////////////////////')
+
+dict1 = {1: 10, 2: 20}
+dict2 = {3: 30, 4: 40}
+result = {}
+for d in (dict1, dict2):
+    result.update(d)
+print(result)
+
+print('///////////////////////')
+
+values = input('Введите числа через запятую: ')
+ints_as_strings = values.split(',')
+ints = map(int, ints_as_strings)
+lst = list(ints)
+tup = tuple(lst)
+print('Список:', lst)
+print('Кортеж:', tup)
+
+print('///////////////////////')
+
+sp1 = [1, 2, 3, 4, 5]
+print(sp1[0], sp1[-1])
+
+print('///////////////////////')
+
+
+def count(n):
+    n1 = n
+    n2 = int(str(n) * 2)
+    n3 = int(str(n) * 3)
+    print(n1 + n2 + n3)
+
+
+count(5)
